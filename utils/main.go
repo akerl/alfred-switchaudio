@@ -16,7 +16,7 @@ func CurrentDevice(direction string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	return string(out), nil
+	return strings.TrimSpace(string(out)), nil
 }
 
 // AllDevices returns all devices for a given direction
