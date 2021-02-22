@@ -1,0 +1,6 @@
+/.gopath
+/bin
+/vendor/
+/pkg/
+/.tools/
+/Dockerfile
