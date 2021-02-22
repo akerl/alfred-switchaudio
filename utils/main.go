@@ -1,7 +1,6 @@
 package utils
 
 import (
-	"fmt"
 	"os/exec"
 	"strings"
 )
@@ -44,7 +43,6 @@ func AllOtherDevices(direction string) ([]string, error) {
 	}
 	others := []string{}
 	for _, device := range all {
-		fmt.Printf("Comparing '%s' with '%s'\n", current, device)
 		if device != current {
 			others = append(others, device)
 		}
