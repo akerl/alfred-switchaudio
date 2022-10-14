@@ -9,6 +9,8 @@ import (
 	"github.com/spf13/cobra"
 )
 
+var xml = "<item arg=\"%s\" uid=\"%s\"><title>%s</title><subtitle/><icon>icon.png</icon></item>\n"
+
 var listCmd = &cobra.Command{
 	Use:   "list",
 	Short: "List audio devices",
@@ -34,7 +36,7 @@ func listRunner(cmd *cobra.Command, _ []string) error {
 	fmt.Println("<?xml version=\"1.0\"?><items>")
 	for _, device := range devices {
 		uid := strings.ReplaceAll(device, " ", "_")
-		fmt.Printf("<item arg=\"%s\" uid=\"%s\"><title>%s</title><subtitle/><icon>icon.png</icon></item>\n", device, uid, device)
+		fmt.Printf(xml, device, uid, device)
 	}
 	fmt.Println("</items>")
 
