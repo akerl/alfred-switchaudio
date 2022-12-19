@@ -1,7 +1,7 @@
 alfred-switchaudio
 =========
 
-[![GitHub Workflow Status](https://img.shields.io/actions/github/workflow/status/akerl/alfred-switchaudio/build.yml?branch=main)](https://github.com/akerl/alfred-switchaudio/actions)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/akerl/alfred-switchaudio/build.yml?branch=main)](https://github.com/akerl/alfred-switchaudio/actions)
 [![GitHub release](https://img.shields.io/github/release/akerl/alfred-switchaudio.svg)](https://github.com/akerl/alfred-switchaudio/releases)
 [![License](https://img.shields.io/github/license/akerl/alfred-switchaudio)](https://github.com/akerl/alfred-switchaudio/blob/master/LICENSE)
 
