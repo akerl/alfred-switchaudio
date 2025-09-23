@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/akerl/alfred-switchaudio/utils"
+	"github.com/akerl/alfred-switchaudio/devices"
 
 	"github.com/spf13/cobra"
 )
@@ -28,7 +28,7 @@ func listRunner(cmd *cobra.Command, _ []string) error {
 		return err
 	}
 
-	devices, err := utils.AllOtherDevices(direction)
+	devices, err := devices.AllOtherDevices(direction)
 	if err != nil {
 		return err
 	}

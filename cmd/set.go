@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/akerl/alfred-switchaudio/utils"
+	"github.com/akerl/alfred-switchaudio/devices"
 
 	"github.com/spf13/cobra"
 )
@@ -31,5 +31,5 @@ func setRunner(cmd *cobra.Command, _ []string) error {
 		return err
 	}
 
-	return utils.SetDevice(direction, target)
+	return devices.SetDevice(direction, target)
 }
