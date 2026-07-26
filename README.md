@@ -5,7 +5,7 @@ alfred-switchaudio
 [![GitHub release](https://img.shields.io/github/release/akerl/alfred-switchaudio.svg)](https://github.com/akerl/alfred-switchaudio/releases)
 [![License](https://img.shields.io/github/license/akerl/alfred-switchaudio)](https://github.com/akerl/alfred-switchaudio/blob/master/LICENSE)
 
-Helper for changing audio devices using alfred with [alfred-switchaudio](https://github.com/deweller/alfred-switchaudio-osx).
+Helper for changing audio devices using alfred with [alfred-switchaudio](https://github.com/deweller/switchaudio-osx).
 
 ## Usage
 
